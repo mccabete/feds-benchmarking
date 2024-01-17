@@ -16,7 +16,7 @@ Welcome to the Fire Event Data Suite - Polygon Evaluation and Comparison (FEDS-P
 
 ### What is FEDS-PEC?
 
-FEDS-PEC is a specialized Python module designed for geospatial data analysis, specifically tailored for FEDS fire perimeters. It offers the following key features:
+FEDS-PEC is a specialized Python module designed for geospatial data analysis, specifically tailored for spatial comparisons and evaluations of FEDS fire perimeters. It offers the following key features:
 
 - Interaction through Jupyter Notebooks (e.g. `KINCADE_DEMO_FEDS_Outline.ipynb`, `BLANK_PEC_Outline.ipynb`).
 - The flexibility to use predefined reference datasets or user-uploaded/defined datasets.
