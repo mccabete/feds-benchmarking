@@ -135,7 +135,7 @@ class InputFEDS():
         perm = get_collections.collection(self._collection)
         
         # set extent info with properties 
-        self._ds_bbox = perm["extent"]["spatial"]["bbox"]
+        self._ds_bbox = perm["extent"]["spatial"]["bbox"] ## I would instead set a bbox with the search box parameter you have in the inputs, and include that in the FEDS API query
         # self._crs = perm["extent"]["spatial"]["crs"] <-- we assume passed usr crs is accurate, see below warning
         self._range_start = perm["extent"]["temporal"]["interval"][0][0]
         self._range_stop = perm["extent"]["temporal"]["interval"][0][1]
